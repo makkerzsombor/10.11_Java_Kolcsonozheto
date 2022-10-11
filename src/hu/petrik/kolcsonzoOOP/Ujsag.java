@@ -11,6 +11,18 @@ public class Ujsag implements Kolcsonozheto{
         this.kiadasHet = kiadasHet;
     }
 
+    public String getCim() {
+        return cim;
+    }
+
+    public int getKiadasEve() {
+        return kiadasEve;
+    }
+
+    public int getKiadasHet() {
+        return kiadasHet;
+    }
+
     @Override
     public String megjelenitheto() {
         return String.format("%s %d/%d.",this.cim, this.kiadasEve, this.kiadasHet);

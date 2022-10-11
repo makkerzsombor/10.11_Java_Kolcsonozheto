@@ -9,6 +9,14 @@ public class Dvd implements Kolcsonozheto{
         this.hossz = hossz;
     }
 
+    public String getCim() {
+        return cim;
+    }
+
+    public int getHossz() {
+        return hossz;
+    }
+
     @Override
     public String megjelenitheto() {
         return String.format("%s (%d perc)", this.cim, this.hossz);
